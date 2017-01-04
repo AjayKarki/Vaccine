@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vaccine"
+            android:icon="@drawable/botox"
+            android:title="Vaccine" />
+        <item
+            android:id="@+id/nav_nutrients"
+            android:icon="@drawable/nutrition"
+            android:title="Nutrition" />
+        <item
+            android:id="@+id/nav_mal"
+            android:icon="@drawable/malnutrition"
+            android:title="Malnutrition" />
+        <item
+            android:id="@+id/nav_ratio"
+            android:icon="@drawable/ratioage"
+            android:title="Age Weight Ratio" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit"
+            android:title="Exit" />
+
+    </group>
+
+</menu>

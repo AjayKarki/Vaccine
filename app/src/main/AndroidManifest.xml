@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/vaccine"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dpt"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Hae"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Hepa"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Influ"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Mmr"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Pneu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Rota"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".vmenu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Ageratio"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Nutrition"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Malnutrition"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".malnutrition1"
+            android:theme="@style/AppTheme" />
+
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".MyAlarmService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process=".remote" />
+
+        <activity android:name=".HepB"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Polio"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Varicella"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

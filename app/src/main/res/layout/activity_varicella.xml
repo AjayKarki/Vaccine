@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/varicellavaccine"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Varicella"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Varicella vaccine, also known as chickenpox vaccine, is a vaccine that protects against chickenpox. Chicken pox is highly infectious disease that usually causes an itchy red rash with blisters. Two doses of chickenpox vaccine for children are recommended. Children should receive two doses of the vaccine—the first dose at 12 through 15 months old and a second dose at 4 through 6 years old."/>
+    </LinearLayout>
+</ScrollView>

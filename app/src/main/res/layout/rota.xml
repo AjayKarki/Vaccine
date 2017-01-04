@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="700dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rota1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Rota"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotavirus is the most common cause of severe vomiting and diarrhoea among infants and young children. It can cause inflammation of the stomach and intestines, severe watery diarrhea, often with vomiting, fever, and abdominal pain. Children can become severely dehydrated and need to be hospitalized and can even die after being affected by the Rota virus.Rotavirus vaccination is the best way to protect children against rotavirus disease. It is given in 3 doses at ages 2 months, 4 months, and 6 months"/>
+    </LinearLayout>
+</ScrollView>

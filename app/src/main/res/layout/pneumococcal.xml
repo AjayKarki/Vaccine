@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="700dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pneumococcal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Pneumoccals"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pneumococcal vaccines are vaccines against the bacteria Streptococcus pneumoniae.These bacteria can cause many types of illnesses, including: pneumonia , ear infections, sinus infections, meningitis  and blood stream infection.Pneumococcal vaccine is recommended for all children aged 2–23 months and for at-risk children aged 24–59 months. The normal 4-dose series is given at 2, 4, 6 and 12–14 months of age.
+
+"/>
+    </LinearLayout>
+</ScrollView>

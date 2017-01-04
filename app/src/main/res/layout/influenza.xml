@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="700dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/influenza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Influenza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Influenza, commonly known as 'the flu', is an infectious disease caused by an influenza virus.  It causes high fever, runny nose, sore throat, muscle pains, headache, coughing, and feeling tired.  Influenza vaccination is safe for anyone 6 months of age and older.The children aged 6 months through 8 years who need two doses of vaccine should receive the first dose as soon as possible to allow time to get the second dose before the start of flu season. The two doses should be given at least four weeks apart."/>
+    </LinearLayout>
+</ScrollView>
